@@ -12,7 +12,7 @@ export default function Footer() {
                     </figure>
                 </a>
                 <div className="footer__list">
-                    <a className="footer__link" href="/">Home</a>
+                    <a href="/" className="footer__link">Home</a>
                     <span className="footer__link no-cursor">About</span>
                     <a href="/books" className="footer__link">Books</a>
                     <a href="/cart" className="footer__link">Cart</a>

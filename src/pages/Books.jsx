@@ -40,6 +40,7 @@ export default function Books({books: initialBooks}) {
                             books
                             .map(book => <Book 
                                 key = {book.id}
+                                id = {book.id}
                                 url = {book.url} 
                                 title = {book.title} 
                                 originalPrice = {book.originalPrice}
