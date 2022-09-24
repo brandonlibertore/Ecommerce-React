@@ -32,7 +32,7 @@ function App() {
   useEffect(() => console.log(cart))
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Nav/>
         <Route path="/" exact component={Home}/>
