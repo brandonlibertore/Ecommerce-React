@@ -36,9 +36,9 @@ function App() {
       <div className="App">
         <Nav/>
         <Route path="/" exact component={Home}/>
-        <Route path="/books" exact render={() => <Books books={books}/>}/>
-        <Route path="/books/:id" render={() => <BookInfo books={books} addToCart={addToCart} cart={cart}/>}/>
-        <Route path="/cart" render={() => <Cart cart={cart}/>}/>
+        <Route path="/Ecommerce-React/books" exact render={() => <Books books={books}/>}/>
+        <Route path="/Ecommerce-React/books/:id" render={() => <BookInfo books={books} addToCart={addToCart} cart={cart}/>}/>
+        <Route path="/Ecommerce-React/cart" render={() => <Cart cart={cart}/>}/>
         <Footer/>
       </div>
     </Router>
