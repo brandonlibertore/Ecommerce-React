@@ -23,10 +23,10 @@ export default function BookInfo({ books, addToCart, cart }) {
         <div className="books__container">
           <div className="row">
             <div className="book__selected--top">
-              <a href="/Ecommerce-React/books" className="book__link">
+              <a href="/books" className="book__link">
                 <FontAwesomeIcon icon="arrow-left" />
               </a>
-              <a href="/Ecommerce-React/books" className="book__link">
+              <a href="/books" className="book__link">
                 <h2 className="book__selected--title--top">Books</h2>
               </a>
             </div>
@@ -59,7 +59,7 @@ export default function BookInfo({ books, addToCart, cart }) {
                   </p>
                 </div>
                 {bookExistsOnCart() ? (
-                  <a href={`/Ecommerce-React/cart`}>
+                  <a href={`/cart`}>
                     <button className="btn">Checkout</button>
                   </a>
                 ) : (

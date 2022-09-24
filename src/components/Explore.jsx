@@ -8,7 +8,7 @@ export default function Explore() {
           <h2>
             Explore more <span className="purple">Books</span>
           </h2>
-          <a href="/Ecommerce-React">
+          <a href="/">
             <button className="btn">Explore Books</button>
           </a>
         </div>

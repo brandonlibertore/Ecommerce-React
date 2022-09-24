@@ -6,20 +6,20 @@ export default function Footer() {
     <footer>
       <div className="container">
         <div className="row row__column ">
-          <a href="/Ecommerce-React">
+          <a href="/">
             <figure className="footer__logo">
               <img src={Logo} alt="" className="footer__logo--img" />
             </figure>
           </a>
           <div className="footer__list">
-            <a href="/Ecommerce-React" className="footer__link">
+            <a href="/" className="footer__link">
               Home
             </a>
             <span className="footer__link no-cursor">About</span>
-            <a href="/Ecommerce-React/books" className="footer__link">
+            <a href="/books" className="footer__link">
               Books
             </a>
-            <a href="/Ecommerce-React/cart" className="footer__link">
+            <a href="/cart" className="footer__link">
               Cart
             </a>
           </div>
